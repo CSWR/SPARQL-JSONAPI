@@ -191,6 +191,7 @@ public class Main {
 
 		long start = System.nanoTime();
 
+		// Put here the right query. Now the "distinct query" is being evaluated.
 		dbw.evaluateSPARQLSon(query_distinct, strategy, params);
 
 		long elapsedTime = System.nanoTime() - start;
